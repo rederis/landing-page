@@ -7,3 +7,29 @@
 body {
     min-height: 100vh;
 }
+
+header {
+    background-color: #B49C89;
+    display: flex;
+    padding: 10px 200px;
+    align-items: center;
+    justify-content: space-between;
+    color: #F6F5F1;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+}
+
+header a, header a:active{
+    text-decoration: none;
+    color: inherit;
+}
+
+header a:hover{
+    color: #FF9C37;
+}

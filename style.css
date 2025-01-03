@@ -136,7 +136,7 @@ header a:hover{
 }
 
 .author{
-    align-self: flex-start;
+    align-self: flex-end;
     font-weight: bold;
     font-size: 25px;
 }
@@ -164,4 +164,13 @@ header a:hover{
     border: 1px solid #F6F5F1;
     border-radius: 10px;
     padding: 10px 30px;
+}
+
+footer{
+    background-color: #737173;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    color: #F6F5F1;
 }

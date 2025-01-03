@@ -9,12 +9,16 @@ body {
 }
 
 header {
-    background-color: #B49C89;
+    background-color: #737173;
     display: flex;
-    padding: 10px 200px;
+    padding: 20px 200px;
     align-items: center;
     justify-content: space-between;
     color: #F6F5F1;
+}
+
+header h1{
+    font-size: 24px;
 }
 
 header ul{
@@ -25,6 +29,10 @@ header ul{
     gap: 20px;
 }
 
+header a{
+    font-size: 18px;
+}
+
 header a, header a:active{
     text-decoration: none;
     color: inherit;
@@ -32,4 +40,44 @@ header a, header a:active{
 
 header a:hover{
     color: #FF9C37;
+}
+
+.hero{
+    display: flex;
+    padding: 70px 200px;
+    background-color: #737173;
+    color: #F6F5F1;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero .content{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.hero h2{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero p{
+    font-size: 18px;
+}
+
+.hero button{
+    padding: 10px 20px;
+    background-color:#FF9C37;
+    border-radius: 10px;
+    border: none;
+    color: #F6F5F1;
+    font-weight: bold;
+}
+
+.hero img{
+    width: 500px;
+    height: auto;
 }

@@ -70,7 +70,7 @@ header a:hover{
 
 .hero button{
     padding: 10px 20px;
-    background-color:#FF9C37;
+    background-color:rgb(208,108,55);
     border-radius: 10px;
     border: none;
     color: #F6F5F1;
@@ -139,4 +139,29 @@ header a:hover{
     align-self: flex-start;
     font-weight: bold;
     font-size: 25px;
+}
+
+.call{
+    padding: 100px 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    background-color: rgb(208,108,55);
+    color: #F6F5F1;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    padding: 30px 60px;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.card button{
+    background-color: rgb(208,108,55);
+    color: #F6F5F1;
+    border: 1px solid #F6F5F1;
+    border-radius: 10px;
+    padding: 10px 30px;
 }

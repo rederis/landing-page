@@ -81,3 +81,33 @@ header a:hover{
     width: 500px;
     height: auto;
 }
+
+.information{
+    padding: 70px 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F6F5F1;
+    gap: 50px;
+    padding-bottom: 120px;
+}
+
+.illusts{
+    display: flex;
+    gap: 50px;
+}
+
+.illust{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.illust img{
+    width: 100%;
+    height: auto;
+    border: 2px solid #FF9C37;
+    border-radius: 10px;
+}
